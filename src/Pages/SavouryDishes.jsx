@@ -3,7 +3,7 @@ import DishesCard from "../layouts/DishesCard";
 import img1 from "../assets/SpaghettiBolognese.jpg";
 import img2 from "../assets/KremetKyllingsuppe.jpg";
 import img3 from "../assets/MargarittaPizza.jpg";
-import img4 from "../assets/Sushimix.jpg";
+import img4 from "../assets/SushiMix.jpg";
 import img5 from "../assets/Cæsarsalat.jpg";
 import img10 from "../assets/Entrecote-med-Grønnsaker.jpg";
 
@@ -32,7 +32,7 @@ const SavouryDishes = () => {
         />
         <DishesCard
           img={img4}
-          title="Sushi mix"
+          title="Sushi Mix"
           price="229kr"
           description="Ingredienser: Laks, tunfisk, reker, ris"
         />
