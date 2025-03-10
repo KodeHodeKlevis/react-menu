@@ -1,0 +1,84 @@
+import React from "react";
+import DishesCard from "../layouts/DishesCard";
+import img1 from "../assets/SpaghettiBolognese.jpg";
+import img2 from "../assets/KremetKyllingsuppe.jpg";
+import img3 from "../assets/MargarittaPizza.jpg";
+import img4 from "../assets/SushiMix.jpg";
+import img5 from "../assets/Cæsarsalat.jpg";
+import img6 from "../assets/Brownie.jpg";
+import img7 from "../assets/TacoTallerken.jpg";
+import img8 from "../assets/Pannekaker-med-Syltetøy.jpg";
+import img9 from "../assets/Reker-med-Sitron.jpg";
+import img10 from "../assets/Entrecote-med-Grønnsaker.jpg";
+
+const Dishes = () => {
+  return (
+    <div className="w-full p-10 shadow-emerald-400 shadow rounded-lg">
+      <h1 className="text-2xl font-bold text-center mb-6">Our Dishes</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <DishesCard
+          img={img1}
+          title="Spaghetti Bolognese"
+          price="159kr"
+          description="Ingredienser: Spaghetti, kjøttsaus, parmesan"
+        />
+        <DishesCard
+          img={img2}
+          title="Kremet Kyllingsuppe"
+          price="129kr"
+          description="Ingredienser: Kylling, fløte, gulrøtter, selleri"
+        />
+        <DishesCard
+          img={img3}
+          title="Margaritta Pizza"
+          price="169kr"
+          description="Ingredienser: Tomatsaus, mozzarella, basilikum"
+        />
+        <DishesCard
+          img={img4}
+          title="Sushi Mix"
+          price="229kr"
+          description="Ingredienser: Laks, tunfisk, reker, ris"
+        />
+        <DishesCard
+          img={img5}
+          title="Cæsarsalat"
+          price="139kr"
+          description="Ingredienser: Romanosalat, kylling, parmesan, dressing"
+        />
+        <DishesCard
+          img={img6}
+          title="Brownie med Is"
+          price="89kr"
+          description="Ingredienser: Brownie, vaniljeis, sjokoladesaus"
+        />
+        <DishesCard
+          img={img7}
+          title="Taco Tallerken"
+          price="199kr"
+          description="Ingredienser: Kjøttdeig, mais, ost, guacamole"
+        />
+        <DishesCard
+          img={img8}
+          title="Pannekaker med Syltetøy"
+          price="99kr"
+          description="Ingredienser: Pannekaker, jordbærsyltetøy, sukker"
+        />
+        <DishesCard
+          img={img9}
+          title="Reker med Sitron"
+          price="149kr"
+          description="Ingredienser: Reker, sitron, dill, brød"
+        />
+        <DishesCard
+          img={img10}
+          title="Entrecote med Grønnsaker"
+          price="289kr"
+          description="Ingredienser: Entrecôte, asparges, poteter, peppersaus"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Dishes;
